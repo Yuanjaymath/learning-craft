@@ -1,0 +1,175 @@
+/* Shared opening-scroll artwork, scoped to the learning and utility interfaces. */
+:is(#quiz,#utilityMenu,#developerDialog,#sessionReturn,#menuPanel,#trainingPanel .training-card,.observer-screen .observer-quiz,.observer-screen .observer-menu){
+ --paper-ink:#172d4a;--paper-gold:#a77528;
+ color:var(--paper-ink);border:0;border-radius:0;
+ background:transparent url('../assets/ui/parchment-scroll.png') center/100% 100% no-repeat;
+ background-attachment:local;
+ box-shadow:0 15px 50px #50361438;
+ scrollbar-width:thin;scrollbar-color:#a77b34 #f8e8c3;
+}
+:is(#quiz,#utilityMenu,#developerDialog,#sessionReturn)::backdrop{
+ background:linear-gradient(#fff8dc18,#132b3826),url('../assets/ui/menu-landscape.png') center/cover no-repeat;
+}
+:is(#quiz,#utilityMenu,#developerDialog,#menuPanel,#trainingPanel,.observer-screen) :is(h1,h2){
+ font-family:"Noto Serif TC","PMingLiU","Microsoft JhengHei",serif;
+ color:#142d4f;text-shadow:0 1px #fff6d9;
+}
+:is(#quiz,#utilityMenu,#developerDialog,#menuPanel,#trainingPanel) :is(label,.muted,.eyebrow,#roster){color:#394b5c}
+:is(#quiz,#utilityMenu,#developerDialog,#menuPanel,#trainingPanel) .eyebrow{color:#725018;font-weight:700;letter-spacing:.08em}
+:is(#utilityMenu,#developerDialog,#menuPanel,#trainingPanel) :is(input,select){
+ background:linear-gradient(#fffdf2,#f6e5be);color:#172d4a;border:1px solid #a47b36;
+ box-shadow:inset 0 2px 4px #79521e12;
+}
+:is(#utilityMenu,#developerDialog,#menuPanel,#trainingPanel) select option{background:#fff5dd;color:#172d4a}
+:is(#quiz,#utilityMenu,#developerDialog,#sessionReturn,#menuPanel,#trainingPanel) button,#menuToggle{
+ background:linear-gradient(#fff9e5,#efd297);color:#17304f;
+ border:1px solid #976b29;font-weight:700;text-shadow:0 1px #fff4d2;
+ box-shadow:inset 0 0 0 2px #ffe8b3,inset 0 0 0 3px #c99a4d,0 2px 3px #6a421c24;
+}
+:is(#quiz,#utilityMenu,#developerDialog,#menuPanel,#trainingPanel) button:hover,#menuToggle:hover{filter:brightness(1.06)}
+:is(#quiz,#utilityMenu,#developerDialog,#menuPanel,#trainingPanel) :is(button,input,select):focus-visible{outline:3px solid #225da1;outline-offset:3px}
+#quiz #submit,#quiz #nextQuestion,#trainingPanel #trainingQuestion,#trainingPanel #deploy{
+ background:linear-gradient(#0c8051,#07533b);color:#fff9e6;text-shadow:0 1px #133e2a;
+}
+#trainingPanel{inset:78px 0 0;background:linear-gradient(#fff6d91a,#18384928),url('../assets/ui/menu-landscape.png') center/cover no-repeat;padding:14px}
+#trainingPanel .training-card{width:min(820px,98vw);padding:54px 66px 52px;max-height:100%;font-size:16px}
+#trainingPanel h1{margin:0 0 10px;font-size:30px}
+#trainingPanel .training-stats{color:#173d59;background:#fff8e6bc;border:1px solid #b48c45;border-radius:7px;font-weight:700;font-size:20px}
+#trainingPanel p{margin:12px 0;line-height:1.7}
+#trainingPanel button{padding:12px;margin:6px 0}
+#trainingPanel #deploy:disabled,#quiz #closeQuiz:disabled{opacity:1;background:linear-gradient(#dedede,#bdbdbd);color:#646464;border-color:#999;text-shadow:none;box-shadow:inset 0 0 0 2px #e8e8e8;cursor:not-allowed;filter:none;animation:none}
+#trainingPanel #deploy.battle-entry-ready:not(:disabled),#quiz #closeQuiz.battle-entry-ready:not(:disabled){background:linear-gradient(#fff271,#ffd437);color:#b31324;border-color:#cb9718;text-shadow:none;font-weight:900;animation:battle-entry-glow 1.6s ease-in-out infinite}
+@keyframes battle-entry-glow{0%,100%{filter:brightness(1);box-shadow:inset 0 0 0 2px #fff2a3,0 0 2px #ffd43166}50%{filter:brightness(1.18);box-shadow:inset 0 0 0 2px #fff8ca,0 0 14px 4px #ffc82ed9}}
+@media(prefers-reduced-motion:reduce){#trainingPanel #deploy.battle-entry-ready:not(:disabled),#quiz #closeQuiz.battle-entry-ready:not(:disabled){animation:none;filter:none;box-shadow:inset 0 0 0 2px #fff2a3,0 0 5px #ffd43199}}
+#quiz #quizEntryNotice{font-size:13px;line-height:1.5;margin:0;color:#704614}
+#quiz #quizEntryNotice.is-warning,#notice.is-warning,#missileFireWarning{color:#b31324;font-weight:700}
+#quiz #quizEntryNotice:empty{display:none}
+.unit-label .drone-bombs{display:flex;justify-content:center;gap:2px;margin-top:3px;color:#ffe29a;line-height:0}
+.unit-label .drone-bombs svg{width:12px;height:16px;display:block;overflow:visible;fill:currentColor;stroke:#271b10;stroke-width:1}
+.unit-label .drone-bombs .half-bomb{opacity:.4}
+#missileFireMenu{position:fixed;margin:0;width:280px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);overflow-y:auto;padding:18px;border:2px solid #ad803b;border-radius:12px;background:linear-gradient(#fff9e8,#efd9a9);color:#17304f;box-shadow:0 12px 40px #13273466}
+#missileFireMenu::backdrop{background:#10203012}
+#missileFireMenu h2{margin:0 0 10px;font-size:20px}
+#missileFireMenu p{font-size:14px;line-height:1.5;margin:8px 0}
+#missileFireMenu button{background:#146448;color:#fff7df;border-color:#90743a;font-weight:700}
+#missileFireMenu button:disabled{opacity:1;background:#d5ccb8;color:#675d4d;cursor:not-allowed}
+#missileFireMenu button:last-child{background:#f6e4bd;color:#17304f}
+#menuPanel{display:flex;flex-direction:column;width:370px;padding:48px 35px 45px;max-height:calc(100dvh - 120px);top:91px;overflow:hidden}
+#menuPanel #controls{min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#a77b34 #f8e8c3;padding:0 5px 4px 0}
+#menuPanel #menuClose,#menuPanel #developerOpen{flex-shrink:0}
+#menuPanel #revivalStatus{color:#1a553b;border-color:#9d7b38;background:#fff6dc99}
+#menuPanel #menuClose{color:#17304f}
+#utilityMenu,#developerDialog{width:min(620px,96vw);padding:56px 62px 52px;max-height:96dvh}
+#sessionReturn{width:min(680px,96vw);padding:60px 65px;max-height:96dvh;font-size:19px;line-height:1.7}
+#sessionReturn h2{color:#142d4f;font-size:28px;margin:0 0 14px}
+#sessionReturn p{color:#172d4a}
+#sessionReturn button{display:block;width:100%;margin:12px 0;padding:14px;font-size:19px}
+#sessionReturn .session-primary{background:linear-gradient(#0c8051,#07533b);color:#fff9e6}
+@media(max-width:600px){#sessionReturn{padding:45px 32px;font-size:17px}#sessionReturn h2{font-size:24px}}
+#quiz{width:min(1050px,98vw);max-height:98dvh;padding:82px 72px 56px 96px;overflow-y:auto;font-size:16px}
+#quiz[open]{display:grid;grid-template-columns:minmax(0,1fr) 148px;column-gap:18px;align-content:start}
+#quiz> :not(#quizActions){grid-column:1/-1;min-width:0}
+#quiz #quizHeadingLine{grid-column:1;grid-row:1;display:flex;align-items:center;gap:12px;min-width:0;white-space:nowrap;overflow:hidden}
+#quiz #quizHeadingLine #quizHeading{font-size:21px;flex:0 0 auto;margin:0;line-height:1.6}
+#quiz #quizHeadingLine #quizTitle{font-size:12px;margin:0;min-width:0;flex:1;overflow:hidden;text-overflow:ellipsis;letter-spacing:0;line-height:1.6}
+#quiz #quizResources{flex:0 0 auto;max-width:100%;display:flex;gap:12px;align-items:baseline;margin:0 0 0 auto;padding:8px 12px;border:1px solid #ba944f;border-radius:7px;background:#fff8e6e8;color:#173858;position:relative;z-index:41;white-space:nowrap;overflow:hidden}
+#quiz #quizCrystals{font-size:18px;font-variant-numeric:tabular-nums;flex-shrink:0}
+#quiz #quizSupplies{font-size:14px;color:#315846;overflow:hidden;text-overflow:ellipsis}
+#quiz #quizClock{position:fixed;top:16px;right:24px;z-index:50;margin:0;padding:8px 14px;background:#fff5dcf5;border:1px solid #b38a3d;border-radius:7px;box-shadow:0 3px 12px #57381622;text-align:right;color:#143455;font-size:20px;font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap;pointer-events:none}
+#quiz #prompt{grid-column:1;grid-row:2}
+#quiz #quizActions{grid-column:2;grid-row:1/3;align-self:start;display:flex;flex-direction:column;gap:8px;min-width:0;position:relative;z-index:41}
+#quiz #quizActions button{width:100%;float:none;margin:0;padding:9px 8px;font-size:15px;line-height:1.4}
+#quiz #nextDifficultyField{margin:0;color:#594321;font-size:13px;font-weight:700}
+#quiz #nextDifficulty{margin:4px 0 0;padding:7px 8px;background:linear-gradient(#fffdf1,#f4dfb2);color:#17304f;border-color:#a47b36;font-size:15px}
+#quiz #quizMissileShop{padding:11px 13px;margin:5px 0 12px;background:#fff6dce0;border:1px solid #b38b44;border-radius:7px}
+#quiz #quizMissileShop p{font-size:14px;color:#574424;margin:0 0 7px;line-height:1.6}
+#quiz .quiz-missile-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+#quiz .quiz-missile-buttons button{font-size:14px;margin:0;padding:9px 5px}
+#quiz #quizSupplies:empty{display:none}
+#quiz #quizHeading{font-size:25px;margin:9px 0 16px}
+#quiz #quizTitle{font-size:14px;padding-right:0;margin:0;line-height:1.7}
+#quiz #quizMenu{margin:0;float:right;padding:8px 16px;font-size:14px}
+#quiz #prompt{font-size:24px;line-height:1.85;color:#102a4c;font-weight:650;margin:18px 0;overflow-wrap:anywhere}
+#quiz #choiceHelp{color:#475445;font-size:16px;line-height:1.6;margin:12px 0}
+#quiz #choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px 17px;margin:15px 0 20px}
+#quiz #choices legend{color:#70501c;font-size:16px;font-weight:700;margin-bottom:9px}
+#quiz .quiz-choice{min-width:0;display:flex;align-items:center;gap:10px;margin:0;padding:14px 15px;min-height:80px;
+ font-size:24px;line-height:1.65;color:#132e50;border:2px solid #b18a42;
+ background:linear-gradient(120deg,#fffdf1ee,#f8e6bacc);box-shadow:inset 0 0 0 2px #fff8de;}
+#quiz .quiz-choice:hover{border-color:#776026;background:#fff9e8}
+#quiz .quiz-choice:has(input:checked){border-color:#1e5599;background:#e4eef8;box-shadow:inset 0 0 0 2px #447aaa}
+#quiz .quiz-choice:focus-within{outline:3px solid #225da1;outline-offset:3px}
+#quiz .quiz-choice input{margin:0;accent-color:#225da1;flex:0 0 19px;width:19px;height:19px}
+#quiz .choice-letter{color:#795313;flex-basis:22px}
+#quiz .choice-status{font-size:14px}
+#quiz #choices .quiz-choice.is-correct{border-color:#287044;background:#e4f1d8}
+#quiz .quiz-choice.is-correct .choice-status{color:#17582f}
+#quiz #choices .quiz-choice.is-wrong{border-color:#a22b3b;background:#fae4df}
+#quiz .quiz-choice.is-wrong .choice-status{color:#8f2033}
+#quiz #feedback{font-size:20px;color:#19344d;line-height:1.9;background:#fff9e2b5;border-radius:7px;padding:15px 18px;margin:16px 0}
+#quiz #feedback:empty{display:none}
+#quiz #feedback:focus{outline:2px solid #225da1;outline-offset:3px}
+#quiz button{font-size:16px;padding:12px}
+math{font-family:"Cambria Math","STIX Two Math",math;font-size:1em;vertical-align:middle;max-width:100%;overflow-x:auto;overflow-y:hidden;padding:4px 1px;white-space:normal}
+#prompt math,.choice-text math,#feedback math{color:inherit}
+footer{color:#000;background:#fff5d3da;border:1px solid #b4915444;border-radius:5px;padding:5px 9px;max-width:calc(100vw - 48px);z-index:4;line-height:1.6;text-shadow:none}
+#notice{color:#000;background:#fff5d3ed;border:1px solid #a98640;border-radius:6px;box-shadow:0 3px 12px #5a401f22}
+#phase{top:66px;left:24px;right:auto;transform:none;max-width:min(360px,calc(100vw - 48px));padding:9px 13px;font-size:15px;line-height:1.6;color:#f3fbff;text-align:left}
+.observer-screen .observer-quiz{width:min(1000px,calc(100vw - 32px));padding:45px 62px;color:#172d4a}
+.observer-screen .observer-menu{padding:40px 30px;color:#172d4a}
+.observer-screen .observer-readonly{color:#67501f}
+.observer-screen .observer-prompt{font-size:24px;line-height:1.85;color:#102a4c}
+.observer-screen .observer-options{grid-template-columns:repeat(2,minmax(0,1fr))}
+.observer-screen .observer-options li{min-width:0;color:#172d4a;background:#fff9e2b5;border:1px solid #af8740;font-size:24px;flex-wrap:wrap}
+.observer-screen .observer-options li.is-selected{background:#e4eef8;border-color:#225da1}
+.observer-screen .observer-choice-letter{color:#795313}
+.observer-screen .observer-choice-selected{color:#1c4f85}
+.observer-screen .observer-feedback{color:#19344d;border-color:#af8740}
+#answerCelebration{position:fixed;inset:0;width:100vw;max-width:none;height:100dvh;max-height:none;padding:0;margin:0;border:0;border-radius:0;overflow:hidden;background:radial-gradient(ellipse at center,#fff6c75a,#ffeaae18 50%,transparent);color:#12355c;box-shadow:none;pointer-events:none;z-index:40}
+#answerCelebration::backdrop{background:#fff6d91a}
+#answerCelebration .celebration-confetti{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+#answerCelebration .celebration-confetti i{position:absolute;top:-12vh;left:var(--x);width:10px;height:19px;background:var(--color);border-radius:2px;animation:quiz-confetti-fall 3s linear var(--delay) infinite}
+#answerCelebration .celebration-confetti i:nth-child(3n){width:13px;height:13px;border-radius:50%}
+#answerCelebration .celebration-card{position:absolute;left:50%;top:45%;transform:translate(-50%,-50%);padding:22px 32px;width:max-content;max-width:86vw;text-align:center;color:#153c64;background:linear-gradient(115deg,#fffce8ee,#ffe2a5ee);border:3px solid #c18b2c;border-radius:16px;box-shadow:0 0 0 5px #fff0b3aa,0 12px 55px #b67b3533;animation:quiz-praise-in .25s ease-out both}
+#answerCelebration .celebration-praise{margin:0;font:900 clamp(30px,6vw,68px)/1.4 "Noto Serif TC","PMingLiU",serif;text-shadow:0 2px #fff,0 0 12px #fff2bd}
+#answerCelebration .celebration-reward{margin:12px 0 0;font-size:clamp(16px,1.6vw,22px);font-weight:700;line-height:1.7;max-width:650px;white-space:normal}
+@keyframes quiz-confetti-fall{from{transform:translate3d(0,-10vh,0) rotate(0deg);opacity:1}to{transform:translate3d(var(--drift),125vh,0) rotate(var(--spin));opacity:.8}}
+@keyframes quiz-praise-in{from{opacity:0;scale:.8}to{opacity:1;scale:1}}
+@keyframes quiz-confetti-gentle{from{transform:translateY(-12vh) rotate(0deg);opacity:.9}to{transform:translateY(85vh) rotate(45deg);opacity:.6}}
+@media(prefers-reduced-motion:reduce){#answerCelebration .celebration-confetti i{top:var(--rest-y);animation:quiz-confetti-gentle 3s linear var(--delay) infinite}#answerCelebration .celebration-card{animation:none}}
+@media(max-width:700px){
+ #trainingPanel{inset:70px 0 0;padding:8px}
+ #trainingPanel .training-card{padding:40px 29px 36px;font-size:15px}
+ #trainingPanel h1{font-size:26px}
+ #trainingPanel .training-stats{font-size:18px}
+ #quiz{width:100vw;max-width:100vw;max-height:99dvh;padding:116px 28px 42px 44px}
+ #quiz[open]{grid-template-columns:minmax(0,1fr) 106px;column-gap:12px}
+ #quiz #quizHeadingLine{grid-column:1/-1;grid-row:1;margin:0 0 12px;gap:6px}
+ #quiz #quizHeadingLine #quizHeading{font-size:14px}
+ #quiz #quizHeadingLine #quizTitle{font-size:11px}
+ #quiz #quizClock{top:12px;right:10px;font-size:18px;padding:7px 10px}
+ #quiz #quizResources{max-width:120px;flex-direction:column;gap:3px;padding:6px;white-space:normal}
+ #quiz #quizCrystals{font-size:14px}
+ #quiz #quizSupplies{font-size:11px}
+ #quiz #quizTitle{font-size:12px;padding-right:0}
+ #quiz #quizActions{grid-row:2}
+ #quiz #quizActions button{font-size:13px;padding:8px 5px}
+ #quiz #nextDifficulty{font-size:14px;padding:6px}
+ #quiz .quiz-missile-buttons{grid-template-columns:1fr}
+ #phase{top:57px;left:10px;max-width:calc(100vw - 20px);font-size:12px;padding:7px 10px}
+ #quiz #quizHeading{font-size:23px;clear:both;padding-top:10px}
+ #quiz #prompt{grid-column:1/-1;grid-row:3;font-size:24px;line-height:1.75}
+ #quiz #choices{gap:10px}
+ #quiz .quiz-choice{font-size:24px;padding:12px 8px;gap:6px;flex-wrap:wrap}
+ #quiz .choice-body{flex-basis:100%;padding-left:2px}
+ #quiz #feedback{padding:12px;font-size:20px}
+ #quiz #quizMenu{padding:7px 10px}
+ #menuPanel{left:8px;top:73px;width:min(355px,calc(100vw - 16px));padding:39px 29px;max-height:calc(100dvh - 88px)}
+ #utilityMenu,#developerDialog{padding:43px 30px}
+ footer{left:10px;max-width:calc(100vw - 20px)}
+ .observer-screen .observer-quiz{padding:36px 25px}
+ .observer-screen .observer-menu{padding:34px 25px}
+ .observer-screen .observer-options{gap:9px}
+ .observer-screen .observer-options li{padding:10px}
+}
+@media(max-height:580px){#trainingPanel{inset:60px 0 0}#trainingPanel .training-card{padding-top:32px;padding-bottom:30px}#quiz{padding-top:58px;padding-bottom:30px}}

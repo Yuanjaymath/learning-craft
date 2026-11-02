@@ -1,0 +1,1 @@
+var t=Object.freeze([{value:"\u6613",label:"\u7C21\u55AE"},{value:"\u4E2D",label:"\u4E2D\u7B49"},{value:"\u96E3",label:"\u56F0\u96E3"}].map(Object.freeze)),a=e=>t.find(l=>l.value===e||l.label===e)?.label||String(e??""),b=e=>t.find(l=>l.value===e||l.label===e)?.value||String(e??"");export{t as a,a as b,b as c};

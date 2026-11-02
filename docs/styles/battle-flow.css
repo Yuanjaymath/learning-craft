@@ -1,0 +1,6 @@
+#trainingPanel{position:fixed;inset:80px 0 0;z-index:10;display:grid;place-items:center;background:linear-gradient(120deg,#07131ef2,#102a39e8);overflow:auto;padding:22px}
+#trainingPanel .training-card{width:min(640px,96vw);max-height:100%;overflow:auto;background:#0b1f2e;border:1px solid #55989d;border-radius:16px;padding:26px 34px;color:#e8f5fa;box-shadow:0 18px 80px #0008}
+#trainingPanel h1{font-size:30px;margin:0 0 12px}#trainingPanel p{line-height:1.8}#trainingPanel .training-stats{white-space:pre-wrap;font-size:18px;color:#95efe1;padding:12px;background:#153445;border-radius:8px}#trainingPanel #deploy{background:#086f50;color:#fff6d3;font-weight:800}#trainingPanel .training-supplies{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center}
+#menuPanel{z-index:20}#menuToggle{z-index:21}#quizMenu{width:auto;float:right;font-size:13px;padding:7px 14px}#nextQuestion{background:#147052;color:white;font-weight:800}#developerDialog,#utilityMenu{max-height:90dvh;overflow:auto}#developerDialog p{line-height:1.8}#developerDialog label{font-size:16px}
+@media(max-width:700px){#trainingPanel{inset:75px 0 0;padding:10px}#trainingPanel .training-card{padding:20px}#trainingPanel h1{font-size:24px}}
+#notice{z-index:25}

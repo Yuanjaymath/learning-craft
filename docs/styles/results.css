@@ -1,0 +1,78 @@
+/* Scoped parchment battle report. Only the middle region scrolls. */
+#battleResults{
+ --results-ink:#17304f;--results-gold:#a77528;
+ color:var(--results-ink);width:min(1280px,98vw);max-width:98vw;
+ height:min(920px,96dvh);max-height:96dvh;margin:auto;
+ border:0;border-radius:0;padding:clamp(48px,7vh,78px) clamp(35px,6vw,88px) clamp(45px,7vh,74px);
+ background:transparent url('../assets/ui/parchment-scroll.png') center/100% 100% no-repeat;
+ box-shadow:none;overflow:hidden;font-family:"Microsoft JhengHei",system-ui,sans-serif;
+}
+#battleResults[open]{display:flex;flex-direction:column;gap:12px}
+#battleResults::backdrop{background:linear-gradient(#12233720,#11232c55),url('../assets/ui/menu-landscape.png') center/cover no-repeat}
+#battleResults [hidden]{display:none!important}
+#battleResults .results-head{flex:0 0 auto;text-align:center}
+#battleResults .results-ornament{font-family:"Noto Serif TC","PMingLiU",serif;color:#91621f;font-size:14px;font-weight:800;letter-spacing:.18em}
+#battleResults h1{font-family:"Noto Serif TC","PMingLiU","Microsoft JhengHei",serif;font-size:clamp(28px,4vw,46px);line-height:1.2;color:#122e52;margin:4px 0 6px;text-shadow:0 2px #fff0b9,0 3px 5px #86652e35}
+#battleResults[data-winner=red] h1{color:#a0192e}
+#battleResults[data-winner=blue] h1{color:#154c92}
+#battleResults .results-subtitle{font-size:14px;color:#4a514d;margin:0;line-height:1.5}
+#battleResults .results-tabs,#battleResults .results-actions{flex:0 0 auto;display:flex;gap:9px;justify-content:center}
+#battleResults button{
+ width:auto;margin:0;padding:9px 17px;font:700 14px/1.4 "Microsoft JhengHei",sans-serif;cursor:pointer;
+ color:#17304f;border:1px solid #976b29;border-radius:7px;background:linear-gradient(#fff9e4,#efcf91);
+ box-shadow:inset 0 0 0 2px #ffe8b3,inset 0 0 0 3px #c99a4d,0 2px 3px #6a421c24;text-shadow:0 1px #fff4d2;
+}
+#battleResults button:hover{filter:brightness(1.06)}
+#battleResults button:focus-visible,#battleResults .results-body:focus-visible{outline:3px solid #235f9e;outline-offset:3px}
+#battleResults button[aria-pressed=true]{background:linear-gradient(#125e9e,#092e62);color:#fff3c4;text-shadow:0 1px #06254b;box-shadow:inset 0 0 0 2px #f4d478}
+#battleResults .results-actions{padding-top:10px;border-top:1px solid #b88f4b77;flex-wrap:wrap}
+#battleResults .results-primary{background:linear-gradient(#0e8052,#075439);color:#fff2c3;text-shadow:0 1px #17402e}
+#battleResults .results-body{min-height:0;flex:1 1 auto;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#ae8140 #f3e1b4;padding:3px 8px 8px 3px}
+#battleResults .results-teams{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+#battleResults .results-team{min-width:0}
+#battleResults h2{font-family:"Noto Serif TC","PMingLiU",serif;font-size:21px;line-height:1.5;margin:0 0 9px;padding:5px 10px;border-bottom:2px solid currentColor}
+#battleResults .results-team-red>h2{color:#a51b2f;background:#c5323810}
+#battleResults .results-team-blue>h2{color:#1a5096;background:#1e69b012}
+#battleResults .results-player,#battleResults .results-review-card{border:1px solid #b58a43;border-radius:7px;padding:12px 14px;margin-bottom:11px;background:#fff8e574;box-shadow:inset 0 0 0 2px #f4dcab66;overflow-wrap:anywhere}
+#battleResults .results-team-red .results-player{border-left:4px solid #b3263d}
+#battleResults .results-team-blue .results-player{border-left:4px solid #2468b0}
+#battleResults .results-player-own{background:#fff9e7dd;box-shadow:inset 0 0 0 2px #d1a24966,0 2px 6px #7b591d16}
+#battleResults h3{font-size:17px;line-height:1.5;margin:0 0 3px;color:#17304f}
+#battleResults .results-unit{font-size:13px;margin:0 0 10px;color:#6c532d;font-weight:700}
+#battleResults .results-answers{border-collapse:collapse;width:100%;text-align:center;font-size:13px;font-variant-numeric:tabular-nums}
+#battleResults caption{text-align:left;font-weight:700;margin-bottom:4px;color:#314258}
+#battleResults th,#battleResults td{padding:4px 6px;border-bottom:1px solid #b7965638}
+#battleResults thead{background:#d5bb7524}
+#battleResults .results-kills-title{font-size:13px;font-weight:700;margin:11px 0 5px}
+#battleResults .results-kills{display:grid;grid-template-columns:1fr 1fr;gap:5px 9px;margin:0;font-size:12px}
+#battleResults .results-kills>div{display:flex;justify-content:space-between;gap:4px;background:#e6cd9329;padding:4px 6px;border-radius:3px}
+#battleResults dt,#battleResults dd{margin:0}
+#battleResults dd{font-weight:800;font-variant-numeric:tabular-nums}
+#battleResults .results-extra{margin:9px 0 0;color:#5c5d4b;font-size:12px}
+#battleResults .results-empty{padding:18px 8px;color:#685b40;font-size:14px;line-height:1.8}
+#battleResults .results-private-note{color:#5e654d;font-size:13px;line-height:1.6;margin:0 0 14px}
+#battleResults .results-review-meta{color:#7e6232;font-size:12px;margin:0 0 8px}
+#battleResults .results-prompt,#battleResults .results-explanation{white-space:pre-wrap;line-height:1.8}
+#battleResults .results-wrong{color:#991f32;margin:9px 0;font-size:14px}
+#battleResults .results-correct{color:#185d3f;margin:9px 0;font-size:14px;font-weight:700}
+#battleResults h4{font-size:14px;margin:13px 0 3px}
+#battleResults .results-explanation{margin:0;color:#344252;font-size:14px}
+@media(max-width:700px){
+ #battleResults{width:100vw;max-width:100vw;height:98dvh;max-height:98dvh;padding:52px 7vw 50px}
+ #battleResults[open]{gap:8px}
+ #battleResults .results-teams{grid-template-columns:1fr;gap:12px}
+ #battleResults h1{font-size:30px}
+ #battleResults .results-subtitle{font-size:12px}
+ #battleResults .results-ornament{font-size:12px}
+ #battleResults button{padding:8px 9px;font-size:12px}
+ #battleResults .results-actions{gap:6px}
+ #battleResults .results-player,#battleResults .results-review-card{padding:10px}
+}
+@media(max-height:550px){
+ #battleResults{height:100dvh;max-height:100dvh;padding-top:30px;padding-bottom:28px}
+ #battleResults[open]{gap:5px}
+ #battleResults .results-ornament{display:none}
+ #battleResults h1{font-size:24px;margin:0}
+ #battleResults .results-actions{padding-top:5px}
+ #battleResults button{padding:6px 10px}
+}
