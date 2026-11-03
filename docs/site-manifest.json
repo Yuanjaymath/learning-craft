@@ -1,6 +1,6 @@
 {
   "format": "orbit-static-site-v1",
-  "models": 34,
+  "models": 30,
   "questions": 171,
   "files": [
     {
@@ -124,26 +124,6 @@
       "sha256": "e8212113dcd7b2872b6b02ff9811754bcc37268d3be5fc8c921cac451a488779"
     },
     {
-      "path": "assets/models/environment/07_small_hill_v2_ridge.glb",
-      "bytes": 930924,
-      "sha256": "ad88b72ad311157d1b2574eb62ee37975d4ff41af9ce260057afc92ee61db897"
-    },
-    {
-      "path": "assets/models/environment/07_small_hill_v3_twinpeak.glb",
-      "bytes": 890356,
-      "sha256": "24586025268ea5d76300e2a9d2a920bb35fab9cf1c5f9b595577e44e561eb690"
-    },
-    {
-      "path": "assets/models/environment/07_small_hill_v4_strata.glb",
-      "bytes": 907484,
-      "sha256": "da608b63fe80b349d96880a212dd6755c91afbfbe26e699cb26d864b88eef0e2"
-    },
-    {
-      "path": "assets/models/environment/07_small_hill.glb",
-      "bytes": 845984,
-      "sha256": "48016a211111f90c0321ede7b69d556f607b64db06b4dda7be119dfd0ba4430e"
-    },
-    {
       "path": "assets/models/environment/08_grass_patch_v2_wildflowers.glb",
       "bytes": 1240032,
       "sha256": "abfce85c596448cb04cb3cd8951994682a2f1a808f333441557bfa0d031b2d67"
@@ -190,8 +170,8 @@
     },
     {
       "path": "data/local-data.js",
-      "bytes": 139426,
-      "sha256": "6fd04ded49a07d873235d4d15aed54ac970c3fe941fc3e2b7254af42965cd6d8"
+      "bytes": 139115,
+      "sha256": "ece496719bcc97c005f3e5abefceaa7325b36b70712bef1db40b5a3bc007c98c"
     },
     {
       "path": "data/questions.json",
@@ -319,26 +299,6 @@
       "sha256": "fa1524430bb67fad4747329ae58c41a924b1d44a83cff04e6772370e09c97616"
     },
     {
-      "path": "local-assets/assets/models/environment/07_small_hill_v2_ridge.glb.js",
-      "bytes": 1241324,
-      "sha256": "9d4ba0f3b90204bf5df70fc36e9f3a6d333bb8ba399325040f66cf5b74de5335"
-    },
-    {
-      "path": "local-assets/assets/models/environment/07_small_hill_v3_twinpeak.glb.js",
-      "bytes": 1187239,
-      "sha256": "f2c1c75d3727f10714a02e3933a7113b6fa5a3f519f6de20397664394160662b"
-    },
-    {
-      "path": "local-assets/assets/models/environment/07_small_hill_v4_strata.glb.js",
-      "bytes": 1210073,
-      "sha256": "c277934ea2e4d394a52d43e870a7732c16237189b83604a29bc70b907f9fa4db"
-    },
-    {
-      "path": "local-assets/assets/models/environment/07_small_hill.glb.js",
-      "bytes": 1128063,
-      "sha256": "528fc2e716af132f46dce6412a81b02ebd173bb4f9cd6ca85ea4ac4fe6371072"
-    },
-    {
       "path": "local-assets/assets/models/environment/08_grass_patch_v2_wildflowers.glb.js",
       "bytes": 1653475,
       "sha256": "62317be2d24cafd84ea0f9640db608562cb3d6cd3d3d29caf406e85eb182a5a8"
@@ -445,8 +405,8 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 225263,
-      "sha256": "951e8ba42c8b02cf2c88bf6da8d691a9142b276191d85d5251627b57b4ecd49b"
+      "bytes": 225330,
+      "sha256": "342c010950a8ec9b933843c220d185e0beb02c573a0131af32c832c61a5c866a"
     },
     {
       "path": "scripts/local-boot.js",
@@ -455,8 +415,8 @@
     },
     {
       "path": "scripts/local-game.js",
-      "bytes": 1327499,
-      "sha256": "b49b6649d6f2f49868bca5d051d2bdb1b253ac97abf94683297c60b89b639449"
+      "bytes": 1327566,
+      "sha256": "be25afb77f6ffc82f23da52ac7b2d4c6835a947198b6b8847b4a2f790fdaa3eb"
     },
     {
       "path": "scripts/network.js",
@@ -485,8 +445,8 @@
     },
     {
       "path": "service-worker.js",
-      "bytes": 19762,
-      "sha256": "239e2720b16988944678be20355024ffb79a112753a0ba50b584d05f4a02978d"
+      "bytes": 18580,
+      "sha256": "50d8169d2e274558482b4170cdbf634a83e20ceb422d7532103ecf3f98bf4a27"
     },
     {
       "path": "styles/battle-flow.css",
@@ -646,26 +606,6 @@
       "sha256": "e8212113dcd7b2872b6b02ff9811754bcc37268d3be5fc8c921cac451a488779"
     },
     {
-      "path": "assets/models/environment/07_small_hill_v2_ridge.glb",
-      "bytes": 930924,
-      "sha256": "ad88b72ad311157d1b2574eb62ee37975d4ff41af9ce260057afc92ee61db897"
-    },
-    {
-      "path": "assets/models/environment/07_small_hill_v3_twinpeak.glb",
-      "bytes": 890356,
-      "sha256": "24586025268ea5d76300e2a9d2a920bb35fab9cf1c5f9b595577e44e561eb690"
-    },
-    {
-      "path": "assets/models/environment/07_small_hill_v4_strata.glb",
-      "bytes": 907484,
-      "sha256": "da608b63fe80b349d96880a212dd6755c91afbfbe26e699cb26d864b88eef0e2"
-    },
-    {
-      "path": "assets/models/environment/07_small_hill.glb",
-      "bytes": 845984,
-      "sha256": "48016a211111f90c0321ede7b69d556f607b64db06b4dda7be119dfd0ba4430e"
-    },
-    {
       "path": "assets/models/environment/08_grass_patch_v2_wildflowers.glb",
       "bytes": 1240032,
       "sha256": "abfce85c596448cb04cb3cd8951994682a2f1a808f333441557bfa0d031b2d67"
@@ -777,8 +717,8 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 225263,
-      "sha256": "951e8ba42c8b02cf2c88bf6da8d691a9142b276191d85d5251627b57b4ecd49b"
+      "bytes": 225330,
+      "sha256": "342c010950a8ec9b933843c220d185e0beb02c573a0131af32c832c61a5c866a"
     },
     {
       "path": "styles/battle-flow.css",
@@ -816,7 +756,7 @@
       "sha256": "2b0c46a601dc4f4924881b2a88d4cc4cb60ea116036cd0440778fac7cbcb1eed"
     }
   ],
-  "totalBytes": 193345133,
+  "totalBytes": 185002327,
   "largest": {
     "path": "local-assets/assets/models/alien_battlefield.glb.js",
     "bytes": 20648883,
