@@ -445,8 +445,8 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 220472,
-      "sha256": "1d84510897e495d92555cde2b8557dd61e22598cb253e669cdf79a7e0943f6eb"
+      "bytes": 220799,
+      "sha256": "56f40ce3cb76e0c8a8a7ee4ff09afa04ca9afe4bea9a43eb16d03ecfee0ac0df"
     },
     {
       "path": "scripts/local-boot.js",
@@ -455,8 +455,8 @@
     },
     {
       "path": "scripts/local-game.js",
-      "bytes": 1321565,
-      "sha256": "04bd540f4ccd83eb51baf78abf240c30a16d7793a13a088c8bf3914500456058"
+      "bytes": 1321892,
+      "sha256": "3dcf181ba54cefd36561686200aa6ee246594da73d7e9b9a81746295301b5466"
     },
     {
       "path": "scripts/network.js",
@@ -486,7 +486,7 @@
     {
       "path": "service-worker.js",
       "bytes": 19758,
-      "sha256": "2a078fd2c7ba24312db44c5ff5dc47c7b771945d47258df7478945469492d97d"
+      "sha256": "e1e6da61f17aa814070571ade84f638e08995662b48f3b8f5f1b3a674726fafc"
     },
     {
       "path": "styles/battle-flow.css",
@@ -505,8 +505,8 @@
     },
     {
       "path": "styles/parchment-ui.css",
-      "bytes": 15920,
-      "sha256": "8e83bdf09614529e62b013d7002bf6f948752c73cf34ab52deb66596c2570e80"
+      "bytes": 15948,
+      "sha256": "dae210a7fbf09dc1fa318989573a1b2579ff1fb716972a362454f50177d3771c"
     },
     {
       "path": "styles/results.css",
@@ -777,8 +777,8 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 220472,
-      "sha256": "1d84510897e495d92555cde2b8557dd61e22598cb253e669cdf79a7e0943f6eb"
+      "bytes": 220799,
+      "sha256": "56f40ce3cb76e0c8a8a7ee4ff09afa04ca9afe4bea9a43eb16d03ecfee0ac0df"
     },
     {
       "path": "styles/battle-flow.css",
@@ -797,8 +797,8 @@
     },
     {
       "path": "styles/parchment-ui.css",
-      "bytes": 15920,
-      "sha256": "8e83bdf09614529e62b013d7002bf6f948752c73cf34ab52deb66596c2570e80"
+      "bytes": 15948,
+      "sha256": "dae210a7fbf09dc1fa318989573a1b2579ff1fb716972a362454f50177d3771c"
     },
     {
       "path": "styles/results.css",
@@ -816,7 +816,7 @@
       "sha256": "2b0c46a601dc4f4924881b2a88d4cc4cb60ea116036cd0440778fac7cbcb1eed"
     }
   ],
-  "totalBytes": 165952738,
+  "totalBytes": 165953420,
   "largest": {
     "path": "local-assets/assets/models/alien_battlefield.glb.js",
     "bytes": 20648883,

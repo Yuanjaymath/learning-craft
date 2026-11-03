@@ -114,6 +114,7 @@ math{font-family:"Cambria Math","STIX Two Math",math;font-size:1em;vertical-alig
 #prompt math,.choice-text math,#feedback math{color:inherit}
 footer{color:#000;background:#fff5d3da;border:1px solid #b4915444;border-radius:5px;padding:5px 9px;max-width:calc(100vw - 48px);z-index:4;line-height:1.6;text-shadow:none}
 #notice{color:#000;background:#fff5d3ed;border:1px solid #a98640;border-radius:6px;box-shadow:0 3px 12px #5a401f22}
+#notice:empty{display:none}
 #phase{top:66px;left:24px;right:auto;transform:none;max-width:min(360px,calc(100vw - 48px));padding:9px 13px;font-size:15px;line-height:1.6;color:#f3fbff;text-align:left}
 .observer-screen .observer-quiz{width:min(1000px,calc(100vw - 32px));padding:45px 62px;color:#172d4a}
 .observer-screen .observer-menu{padding:40px 30px;color:#172d4a}
