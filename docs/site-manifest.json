@@ -419,9 +419,9 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "scripts/chunks/chunk-OWHOLTIZ.js",
-      "bytes": 528484,
-      "sha256": "7b70aa5309c4e0c1d40f79209d746ff127579a4b57618da9f81780a6b4ed6955"
+      "path": "scripts/chunks/chunk-RPTDS6FE.js",
+      "bytes": 530142,
+      "sha256": "1cc91f970e522eb720a21660971b8e8126cf88bae0adf72d5643dd01db7d1670"
     },
     {
       "path": "scripts/chunks/chunk-WA24YYS6.js",
@@ -430,8 +430,8 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 233332,
-      "sha256": "c528d2e83c7628634bf8cf98f0bbdb0f7ad607766c46a12dcca101075c4d837c"
+      "bytes": 236088,
+      "sha256": "66ed42c191fa332e3a7c28087ddb394b2320ca1eb9a32f2a4ef965cb9c62eb64"
     },
     {
       "path": "scripts/local-boot.js",
@@ -440,13 +440,13 @@
     },
     {
       "path": "scripts/local-game.js",
-      "bytes": 1341816,
-      "sha256": "d05cf286d673f1359122b345c0069c1717bf53bedff6084d6775e2b0a96edf23"
+      "bytes": 1346218,
+      "sha256": "a1aaf93d461904eac13630d1daf25af4e64f14d86bc72d8b3a5f5ae0fd137ae6"
     },
     {
       "path": "scripts/network.js",
       "bytes": 147,
-      "sha256": "1e363ba2a42fed1412e0cc5f744cf50e5f69c3c76b8c7d9a418ef698b5421cd5"
+      "sha256": "bf1d6fdfbdca971dbf58a469f30026b56a10b0704ac34a43761703f694049698"
     },
     {
       "path": "scripts/observer.js",
@@ -471,7 +471,7 @@
     {
       "path": "service-worker.js",
       "bytes": 20674,
-      "sha256": "b9d7f80c5d8dffde1d31f96a29b507c64fe8509e73b2ed6b3cb2e503cff968f5"
+      "sha256": "d567d37492904b0a6be1767457ddb5344a04c53db44358a40bec4ceba41d54f5"
     },
     {
       "path": "styles/battle-flow.css",
@@ -756,9 +756,9 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "scripts/chunks/chunk-OWHOLTIZ.js",
-      "bytes": 528484,
-      "sha256": "7b70aa5309c4e0c1d40f79209d746ff127579a4b57618da9f81780a6b4ed6955"
+      "path": "scripts/chunks/chunk-RPTDS6FE.js",
+      "bytes": 530142,
+      "sha256": "1cc91f970e522eb720a21660971b8e8126cf88bae0adf72d5643dd01db7d1670"
     },
     {
       "path": "scripts/chunks/chunk-WA24YYS6.js",
@@ -767,8 +767,8 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 233332,
-      "sha256": "c528d2e83c7628634bf8cf98f0bbdb0f7ad607766c46a12dcca101075c4d837c"
+      "bytes": 236088,
+      "sha256": "66ed42c191fa332e3a7c28087ddb394b2320ca1eb9a32f2a4ef965cb9c62eb64"
     },
     {
       "path": "styles/battle-flow.css",
@@ -806,7 +806,7 @@
       "sha256": "2b0c46a601dc4f4924881b2a88d4cc4cb60ea116036cd0440778fac7cbcb1eed"
     }
   ],
-  "totalBytes": 186884649,
+  "totalBytes": 186893465,
   "largest": {
     "path": "local-assets/assets/models/alien_battlefield.glb.js",
     "bytes": 20648883,
