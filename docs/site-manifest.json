@@ -1,12 +1,37 @@
 {
   "format": "orbit-static-site-v1",
   "models": 30,
-  "questions": 171,
+  "questions": 1026,
   "files": [
     {
       "path": ".nojekyll",
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/audio/作戰單位爆炸聲.mp3",
+      "bytes": 109658,
+      "sha256": "d1a8e442c85e1907a3cf7f1457ec93736596bff33023489ad92a6825b075f783"
+    },
+    {
+      "path": "assets/audio/坦克車射擊聲.mp3",
+      "bytes": 46907,
+      "sha256": "43f0c566a283bdf7ca168377d7d32735e75893b0080aad5eef3991238d19b886"
+    },
+    {
+      "path": "assets/audio/炸彈、飛彈爆炸聲.mp3",
+      "bytes": 116378,
+      "sha256": "6089f1eaa559d66b858590bf4f0698ac825665e9c739ba24179ba53700fbe4ce"
+    },
+    {
+      "path": "assets/audio/無人機飛過旁邊聲音.mp3",
+      "bytes": 149018,
+      "sha256": "e54878890f77895c56ed9e84b3b3ac6e3f89a6a8a5e2c1aeaeacb6e3ee3ae3c7"
+    },
+    {
+      "path": "assets/audio/機甲打擊聲.mp3",
+      "bytes": 8640,
+      "sha256": "198451c1a1b6459573d0377caaea3c996464d41683bca47dddd4e3bdc90ad7ac"
     },
     {
       "path": "assets/models/alien_battlefield.glb",
@@ -170,18 +195,18 @@
     },
     {
       "path": "data/local-data.js",
-      "bytes": 139115,
-      "sha256": "ece496719bcc97c005f3e5abefceaa7325b36b70712bef1db40b5a3bc007c98c"
+      "bytes": 846845,
+      "sha256": "8389e7d363a07177ba079e1737ed052c9db635c42a7a8ee0233864e9cb2f1676"
     },
     {
       "path": "data/questions.json",
-      "bytes": 136441,
-      "sha256": "4dc70f61f70dc6da36a7f7ba1f4e886b0b823b40e3567fa5080495b96d5ee2db"
+      "bytes": 844172,
+      "sha256": "78e7b3620449fadb6af8e3a8b61a8758a1482aa03b5a4cb9936af21467c7a079"
     },
     {
       "path": "index.html",
-      "bytes": 13389,
-      "sha256": "05eaf09314d5618725977dfb03e2d229f93596e5714fdcc3ec81547d6dbe0574"
+      "bytes": 14623,
+      "sha256": "86c83a154443a3db62863547873f5f86b70613cefdeae4753669eda55f1aba4f"
     },
     {
       "path": "local-assets/assets/models/alien_battlefield.glb.js",
@@ -335,13 +360,13 @@
     },
     {
       "path": "local.html",
-      "bytes": 13270,
-      "sha256": "4b99ed085b4ae0ec5f50321c0e0b36ce4cf19c2161e66c687240235de2477d41"
+      "bytes": 14504,
+      "sha256": "e97cfbb1b665d70014ebf369258a48d22a4afb19136f96fec6ff531241bcbcc0"
     },
     {
       "path": "scripts/battle-flow.js",
       "bytes": 257,
-      "sha256": "ade023250eeb64788fd3b5d420edc6aacd6165941d9abed838e7ab0a6ffe5347"
+      "sha256": "ea48343d9f0af997c6931dd6d9ec1cee760168d454be41101b8ccd454a60dd27"
     },
     {
       "path": "scripts/boot.js",
@@ -362,11 +387,6 @@
       "path": "scripts/chunks/chunk-74FLV4OS.js",
       "bytes": 2966,
       "sha256": "8bfa7a58cccc447b3c382a6bdd9a9cdf91b99e2656e285c29fb08172a326ab21"
-    },
-    {
-      "path": "scripts/chunks/chunk-B3HO6OLY.js",
-      "bytes": 10738,
-      "sha256": "29faf59aad25976dbfcf2ff820717e2ca90fbb32f342033ca45c636cadd12dda"
     },
     {
       "path": "scripts/chunks/chunk-E7FM4RJM.js",
@@ -394,9 +414,9 @@
       "sha256": "0c782598ca1bcd708893b6b3887967875d5063466051955cff97f931890a6110"
     },
     {
-      "path": "scripts/chunks/chunk-VTWXZQ4V.js",
-      "bytes": 522514,
-      "sha256": "6b9409e3afe0a9765734754b682d4a0205e96902df28aac110b241c7178ba5e6"
+      "path": "scripts/chunks/chunk-VNMRK5D5.js",
+      "bytes": 11006,
+      "sha256": "6437754d8201f45ed9172f34e1a02b1b6d437ff7a6e23d9fda7ec4435688e196"
     },
     {
       "path": "scripts/chunks/chunk-Y7Y4IVRA.js",
@@ -404,9 +424,14 @@
       "sha256": "e69239c8f3a9108ee313f98ad2d04d6f32aafd5528d6a54491171e8e6fa71cb4"
     },
     {
+      "path": "scripts/chunks/chunk-YGAVRIMZ.js",
+      "bytes": 526965,
+      "sha256": "c0f1a6355129dc06b40820ffdc01246ed469c3a42fa98a01aa78f104dac0c2ff"
+    },
+    {
       "path": "scripts/game.js",
-      "bytes": 225330,
-      "sha256": "342c010950a8ec9b933843c220d185e0beb02c573a0131af32c832c61a5c866a"
+      "bytes": 231195,
+      "sha256": "04797842555b0d48097ab22b212c96cab329afad70547034538d9f54b2aed786"
     },
     {
       "path": "scripts/local-boot.js",
@@ -415,13 +440,13 @@
     },
     {
       "path": "scripts/local-game.js",
-      "bytes": 1327566,
-      "sha256": "be25afb77f6ffc82f23da52ac7b2d4c6835a947198b6b8847b4a2f790fdaa3eb"
+      "bytes": 1338125,
+      "sha256": "431029ac701940d00b9827aeb8ce6ff3234b0cf195241ac3f35310adf387f4c0"
     },
     {
       "path": "scripts/network.js",
       "bytes": 147,
-      "sha256": "551ca4a80bcb0bd0f0a3c2710c624c9a022c902b1bf818be198c1ddd47eec5d0"
+      "sha256": "5f5ee40ee289eb9e974787a4284673558869c20dec2017e3766df91ac7dd7a49"
     },
     {
       "path": "scripts/observer.js",
@@ -445,18 +470,18 @@
     },
     {
       "path": "service-worker.js",
-      "bytes": 18580,
-      "sha256": "50d8169d2e274558482b4170cdbf634a83e20ceb422d7532103ecf3f98bf4a27"
+      "bytes": 20136,
+      "sha256": "9ee8aedb4d51a7c3fb7c01f5afeb63fda1b3a527e58d2034b7c9ec12b65da5b7"
     },
     {
       "path": "styles/battle-flow.css",
-      "bytes": 2532,
-      "sha256": "877b2ee2a043e17eef73222d432022f97fff5ff818be155247ba511fd474079a"
+      "bytes": 4176,
+      "sha256": "f90a23baf6adbffc62c9e51c0bae39fbe2b1d75eafd34d479e78547c7000c374"
     },
     {
       "path": "styles/entry-theme.css",
-      "bytes": 9206,
-      "sha256": "978d45f4897899d17ec6f71d92bd3f7dbc7c1ade094386b0b904a000dd849d26"
+      "bytes": 10040,
+      "sha256": "567515a4958d384aa006747ed428a35f17148348c88a104a7d8c198d5693b75f"
     },
     {
       "path": "styles/observer.css",
@@ -475,8 +500,8 @@
     },
     {
       "path": "styles/style.css",
-      "bytes": 8642,
-      "sha256": "b3a8c4d634af339fe6334b1f66393dfbe7cb639bc8a141ad52c81be57f1424f8"
+      "bytes": 8695,
+      "sha256": "b868618b21e5f4632394ac9cf6bf8549f9a52cd54151bd98b02652045867cd09"
     },
     {
       "path": "tank.glb",
@@ -490,6 +515,31 @@
     }
   ],
   "loadingAssets": [
+    {
+      "path": "assets/audio/作戰單位爆炸聲.mp3",
+      "bytes": 109658,
+      "sha256": "d1a8e442c85e1907a3cf7f1457ec93736596bff33023489ad92a6825b075f783"
+    },
+    {
+      "path": "assets/audio/坦克車射擊聲.mp3",
+      "bytes": 46907,
+      "sha256": "43f0c566a283bdf7ca168377d7d32735e75893b0080aad5eef3991238d19b886"
+    },
+    {
+      "path": "assets/audio/炸彈、飛彈爆炸聲.mp3",
+      "bytes": 116378,
+      "sha256": "6089f1eaa559d66b858590bf4f0698ac825665e9c739ba24179ba53700fbe4ce"
+    },
+    {
+      "path": "assets/audio/無人機飛過旁邊聲音.mp3",
+      "bytes": 149018,
+      "sha256": "e54878890f77895c56ed9e84b3b3ac6e3f89a6a8a5e2c1aeaeacb6e3ee3ae3c7"
+    },
+    {
+      "path": "assets/audio/機甲打擊聲.mp3",
+      "bytes": 8640,
+      "sha256": "198451c1a1b6459573d0377caaea3c996464d41683bca47dddd4e3bdc90ad7ac"
+    },
     {
       "path": "assets/models/alien_battlefield.glb",
       "bytes": 15486604,
@@ -652,8 +702,8 @@
     },
     {
       "path": "data/questions.json",
-      "bytes": 136441,
-      "sha256": "4dc70f61f70dc6da36a7f7ba1f4e886b0b823b40e3567fa5080495b96d5ee2db"
+      "bytes": 844172,
+      "sha256": "78e7b3620449fadb6af8e3a8b61a8758a1482aa03b5a4cb9936af21467c7a079"
     },
     {
       "path": "scripts/boot.js",
@@ -674,11 +724,6 @@
       "path": "scripts/chunks/chunk-74FLV4OS.js",
       "bytes": 2966,
       "sha256": "8bfa7a58cccc447b3c382a6bdd9a9cdf91b99e2656e285c29fb08172a326ab21"
-    },
-    {
-      "path": "scripts/chunks/chunk-B3HO6OLY.js",
-      "bytes": 10738,
-      "sha256": "29faf59aad25976dbfcf2ff820717e2ca90fbb32f342033ca45c636cadd12dda"
     },
     {
       "path": "scripts/chunks/chunk-E7FM4RJM.js",
@@ -706,9 +751,9 @@
       "sha256": "0c782598ca1bcd708893b6b3887967875d5063466051955cff97f931890a6110"
     },
     {
-      "path": "scripts/chunks/chunk-VTWXZQ4V.js",
-      "bytes": 522514,
-      "sha256": "6b9409e3afe0a9765734754b682d4a0205e96902df28aac110b241c7178ba5e6"
+      "path": "scripts/chunks/chunk-VNMRK5D5.js",
+      "bytes": 11006,
+      "sha256": "6437754d8201f45ed9172f34e1a02b1b6d437ff7a6e23d9fda7ec4435688e196"
     },
     {
       "path": "scripts/chunks/chunk-Y7Y4IVRA.js",
@@ -716,19 +761,24 @@
       "sha256": "e69239c8f3a9108ee313f98ad2d04d6f32aafd5528d6a54491171e8e6fa71cb4"
     },
     {
+      "path": "scripts/chunks/chunk-YGAVRIMZ.js",
+      "bytes": 526965,
+      "sha256": "c0f1a6355129dc06b40820ffdc01246ed469c3a42fa98a01aa78f104dac0c2ff"
+    },
+    {
       "path": "scripts/game.js",
-      "bytes": 225330,
-      "sha256": "342c010950a8ec9b933843c220d185e0beb02c573a0131af32c832c61a5c866a"
+      "bytes": 231195,
+      "sha256": "04797842555b0d48097ab22b212c96cab329afad70547034538d9f54b2aed786"
     },
     {
       "path": "styles/battle-flow.css",
-      "bytes": 2532,
-      "sha256": "877b2ee2a043e17eef73222d432022f97fff5ff818be155247ba511fd474079a"
+      "bytes": 4176,
+      "sha256": "f90a23baf6adbffc62c9e51c0bae39fbe2b1d75eafd34d479e78547c7000c374"
     },
     {
       "path": "styles/entry-theme.css",
-      "bytes": 9206,
-      "sha256": "978d45f4897899d17ec6f71d92bd3f7dbc7c1ade094386b0b904a000dd849d26"
+      "bytes": 10040,
+      "sha256": "567515a4958d384aa006747ed428a35f17148348c88a104a7d8c198d5693b75f"
     },
     {
       "path": "styles/observer.css",
@@ -747,8 +797,8 @@
     },
     {
       "path": "styles/style.css",
-      "bytes": 8642,
-      "sha256": "b3a8c4d634af339fe6334b1f66393dfbe7cb639bc8a141ad52c81be57f1424f8"
+      "bytes": 8695,
+      "sha256": "b868618b21e5f4632394ac9cf6bf8549f9a52cd54151bd98b02652045867cd09"
     },
     {
       "path": "tank.glb",
@@ -756,7 +806,7 @@
       "sha256": "2b0c46a601dc4f4924881b2a88d4cc4cb60ea116036cd0440778fac7cbcb1eed"
     }
   ],
-  "totalBytes": 185002327,
+  "totalBytes": 186876087,
   "largest": {
     "path": "local-assets/assets/models/alien_battlefield.glb.js",
     "bytes": 20648883,

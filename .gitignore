@@ -1,0 +1,8 @@
+node_modules/
+.pnpm-store/
+work/
+*.blend1
+.env
+.data/
+service-account*.json
+/遊戲資源/
