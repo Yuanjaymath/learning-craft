@@ -10,7 +10,7 @@
 #blessingDialog .blessing-confetti{position:absolute;inset:0;overflow:hidden}
 #blessingDialog .blessing-confetti i{position:absolute;top:-15vh;left:var(--x);width:12px;height:19px;border-radius:2px;background:var(--color);box-shadow:0 0 12px var(--color);animation:blessing-confetti-fall 3s linear var(--delay) infinite}
 #blessingDialog .blessing-confetti i:nth-child(3n){width:13px;height:13px;border-radius:50%}
-#blessingDialog .blessing-message{position:absolute;inset:0;display:grid;place-items:center;margin:0;padding:8vw;text-align:center;font:900 clamp(36px,7vw,100px)/1.3 "Noto Serif TC","PMingLiU",serif;letter-spacing:.04em;color:#fff5b7;text-shadow:0 4px 2px #3d210d,0 0 22px #ffd54d,0 0 50px #ff9d2e;animation:blessing-message-in .35s ease-out both}
+#blessingDialog .blessing-message{position:absolute;inset:0;display:grid;place-items:center;margin:0;padding:8vw;text-align:center;white-space:pre-line;font:900 clamp(36px,7vw,100px)/1.3 "Noto Serif TC","PMingLiU",serif;letter-spacing:.04em;color:#fff5b7;text-shadow:0 4px 2px #3d210d,0 0 22px #ffd54d,0 0 50px #ff9d2e;animation:blessing-message-in .35s ease-out both}
 @keyframes blessing-confetti-fall{from{transform:translateY(-10vh) rotate(0);opacity:1}to{transform:translate(var(--drift),130vh) rotate(var(--spin));opacity:.75}}
 @keyframes blessing-message-in{from{transform:scale(.7);opacity:0}to{transform:scale(1);opacity:1}}
 @media(prefers-reduced-motion:reduce){#blessingDialog .blessing-confetti i{animation-duration:6s}#blessingDialog .blessing-message{animation:none}}

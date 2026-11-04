@@ -430,8 +430,8 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 233692,
-      "sha256": "327f3e08a7211e6ab3a0fcd31b61d2832d2a439c7b0cfe078c2dfd684b0a9deb"
+      "bytes": 233720,
+      "sha256": "f6405a3c0e84f2b27a01aabb2513e17bfa35977b3d1073367a0a8bc33fc070df"
     },
     {
       "path": "scripts/local-boot.js",
@@ -440,8 +440,8 @@
     },
     {
       "path": "scripts/local-game.js",
-      "bytes": 1340629,
-      "sha256": "b2b909d98614a15d69b61a30410087b31b326d429ce89297a88e3b0ea57f099c"
+      "bytes": 1340657,
+      "sha256": "27bdf008d4de3953937c69222bffc83c61a6d4c358fcf718d4c4dd2a46b82b6c"
     },
     {
       "path": "scripts/network.js",
@@ -471,12 +471,12 @@
     {
       "path": "service-worker.js",
       "bytes": 20136,
-      "sha256": "03054bb0522b023daae7948db150494d0396cc5aacecc49ea39df47e4153d1e8"
+      "sha256": "295eaaf2f8910cf9a1c36f7d49a0a57dcbf5fa306072d405bf03ad489a1eaed8"
     },
     {
       "path": "styles/battle-flow.css",
-      "bytes": 4176,
-      "sha256": "f90a23baf6adbffc62c9e51c0bae39fbe2b1d75eafd34d479e78547c7000c374"
+      "bytes": 4197,
+      "sha256": "4ddad808086e3cabbec11327d670606f4990730c1cf5f7f9dfbf400357662954"
     },
     {
       "path": "styles/entry-theme.css",
@@ -767,13 +767,13 @@
     },
     {
       "path": "scripts/game.js",
-      "bytes": 233692,
-      "sha256": "327f3e08a7211e6ab3a0fcd31b61d2832d2a439c7b0cfe078c2dfd684b0a9deb"
+      "bytes": 233720,
+      "sha256": "f6405a3c0e84f2b27a01aabb2513e17bfa35977b3d1073367a0a8bc33fc070df"
     },
     {
       "path": "styles/battle-flow.css",
-      "bytes": 4176,
-      "sha256": "f90a23baf6adbffc62c9e51c0bae39fbe2b1d75eafd34d479e78547c7000c374"
+      "bytes": 4197,
+      "sha256": "4ddad808086e3cabbec11327d670606f4990730c1cf5f7f9dfbf400357662954"
     },
     {
       "path": "styles/entry-theme.css",
@@ -806,7 +806,7 @@
       "sha256": "2b0c46a601dc4f4924881b2a88d4cc4cb60ea116036cd0440778fac7cbcb1eed"
     }
   ],
-  "totalBytes": 186881699,
+  "totalBytes": 186881776,
   "largest": {
     "path": "local-assets/assets/models/alien_battlefield.glb.js",
     "bytes": 20648883,
