@@ -9,6 +9,8 @@
 #entry .entry-brand{font-size:clamp(26px,4vw,40px);font-weight:900;line-height:1.25;letter-spacing:.08em;margin:0 0 14px;color:#d4ffff;text-shadow:0 0 7px #bcffffa8,0 0 22px #43dff58a,0 0 46px #3296df4a;animation:entry-brand-glow 4s ease-in-out infinite alternate}.entry-lead{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 20px;margin:0 0 22px}#entry #entrySubtitle{font-size:20px;font-weight:700;line-height:1.5;margin:0;flex:0 0 auto}#entry .entry-intro{font-size:14px;line-height:1.7;margin:0;flex:1 1 320px;color:#abc6d6}@keyframes entry-brand-glow{to{text-shadow:0 0 9px #e1ffffd0,0 0 28px #58eaffad,0 0 54px #369ce96b}}@media(prefers-reduced-motion:reduce){#entry .entry-brand{animation:none}}@media(max-width:700px){.entry-lead{gap:4px 14px;margin-bottom:18px}#entry #entrySubtitle{font-size:18px}#entry .entry-intro{font-size:13px;flex-basis:280px}}
 
 .unit-label.castle .hp{width:216px;min-width:216px}
+
+
 #openingPasswordDialog{width:min(440px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow:auto}#openingPasswordDialog .opening-password-field{position:relative;margin-top:7px}#openingPasswordInput{margin:0;color:transparent;caret-color:#fff;font-family:monospace;letter-spacing:2px}#openingPasswordInput::selection{color:transparent}#openingPasswordInput::-ms-reveal{display:none}#openingPasswordMask{position:absolute;inset:0;padding:12px;pointer-events:none;color:#fff;font-family:monospace;letter-spacing:2px;white-space:nowrap;overflow:hidden}#openingPasswordStatus{color:#ffb0b7;line-height:1.6}
 
 [hidden]{display:none!important}
