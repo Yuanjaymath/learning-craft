@@ -26,3 +26,5 @@
 #battleFeed .battle-feed-red{color:#ff8e9a}
 #battleFeed .battle-feed-blue{color:#78baff}
 @media(max-width:700px){#battleFeed{right:10px;width:130px;height:130px}#battleFeed .battle-feed-toggle{font-size:11px;padding:6px}#battleFeed .battle-feed-list{padding:3px 5px}#battleFeed .battle-feed-item{font-size:11px}}
+
+#trainingPanel .training-heading-text{text-align:center;width:100%}
